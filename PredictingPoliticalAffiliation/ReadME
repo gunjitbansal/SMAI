@@ -1,0 +1,13 @@
+DataSet Used :
+1. The political speeches made by members of the Democratic and Republican parties in the United States.
+2. Our dataset consists of 344 speeches (171 Republican /173 Democrat) by American politicians delivered during or after the presidency of Franklin Roosevelt.
+3. All of the data was collected by scraping online sources for text.
+
+Methods and Analysis :
+1. Naive Bayes : After training a model on the whole dataset, we examined the learned parameters to determine which words had the greatest difference in conditional probabilities. Accuracy was 71.1764705882%
+2. SVM (Support Vector Machine) : We used the scikit-learn implementation of SVMs, as well as a built-in grid search method, to search through our set of specified regularization parameters and classify our speech documents. Accuracy was 68.0%
+3. LDA (Linear Discriminant Analysis) : We decided to use Linear Discriminant Analysis to find the linear combination of features which best explains the variance between the two parties. Accuracy was 64.0 %.
+4. Logistic Regression : Accracy was 68.6956521739.
+
+Link For Video : https://www.youtube.com/user/gunjit20009
+Git Hub Link : https://github.com/gunjitbansal/SMAI
